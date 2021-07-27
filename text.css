@@ -10,13 +10,14 @@
 }
 #main-menu{
     padding: 10px;
-    display: relative;
+    position: relative;
 }
 #sub-menu{
     list-style: none;
-    display: absolute;
+    position: absolute;
+    display: none;
 }
-#main-menu :hover{
+#main-menu:hover #sub-menu{
     display: block;
     color: red;
 }
