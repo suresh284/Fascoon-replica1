@@ -17,7 +17,6 @@
     margin: 0px 35px;
 }
 .sub-menu{
-    display: inline-flex;
     position: absolute;
     display: none;
     margin: 20px;
