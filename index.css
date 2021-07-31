@@ -20,9 +20,10 @@
     display: inline-flex;
     position: absolute;
     display: none;
-    margin: 35px;
+    margin: 20px;
+    
     margin-left: -150px;
-    background-color: rgb(112, 148, 189);
+    background-color: blanchedalmond;
 }
 #sub-menu-heading{
     padding: 0px 25px;
@@ -33,4 +34,5 @@
 }
 #main-menu-list:hover .sub-menu{
     display: inline-flex;
+    transition: 0.5s;
 }
