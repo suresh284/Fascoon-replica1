@@ -19,7 +19,7 @@
 .sub-menu{
     position: absolute;
     display: none;
-    margin: 20px;
+    margin: 35px;
     
     margin-left: -150px;
     background-color: blanchedalmond;
@@ -33,5 +33,5 @@
 }
 #main-menu-list:hover .sub-menu{
     display: inline-flex;
-    transition: 0.5s;
+    transition: 0.1s;
 }
