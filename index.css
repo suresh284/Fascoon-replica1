@@ -19,10 +19,10 @@
 .sub-menu{
     position: absolute;
     display: none;
-    margin: 35px;
+    margin-top: 35px;
     
     margin-left: -150px;
-    background-color: blanchedalmond;
+    background-color: blue;
 }
 #sub-menu-heading{
     padding: 0px 25px;
