@@ -17,13 +17,12 @@
     padding: 30px;
 }
 #main-menu-list a:hover{
-    background-color: blue;
     color: red;
 }
 .sub-menu{
     position: absolute;
     display: none;
-    margin-top: 35px;
+    margin:30px;
     margin-left: -150px;
     background-color: blue;
 }
@@ -37,5 +36,6 @@
 #main-menu-list:hover .sub-menu{
     display: inline-flex;
     transition: 25s;
-    background-color: blue;
+    background-color: blanchedalmond;
+    
 }
