@@ -2,7 +2,7 @@
 margin:0px
 }
 .menu-bar{
-    height: 80px;
+    height: 100px;
     background-color: black;
 }
 .catagories-list{
@@ -20,8 +20,10 @@ margin:0px
     text-transform: uppercase;
     font-size: smaller;
     color:red;
-    font-size: 12px;
-    
+    font-size: 12px;    
+}
+.logo1{
+    padding-left: 50px;
 }
 .check{
     display: none;
@@ -29,7 +31,7 @@ margin:0px
 #toggle{
     display: none;
 }
-.fa-search{
+.icon{
     display: none;
 }
 
@@ -42,7 +44,7 @@ margin:0px
     .check{
         display: block;
         cursor: pointer;
-        margin-top: 25px;
+        margin-top: 20px;
         margin-left: 10px;
         
     }
@@ -52,15 +54,15 @@ margin:0px
     .fa-bars{
         color:red;
     }
-    /*
+    
     .fa-search{
         color: red;
         display: block;
-        margin-top: 25px;
+        margin-top: 20px;
         padding-left: 350px;
         
     }
-    */
+    
     #toggle:checked + #catagories-list{
         display: block;
     }
@@ -68,18 +70,42 @@ margin:0px
     .logo1{
         display: block;
         cursor: pointer;
-        margin-top: 25px;
+        margin-top: 20px;
         padding-left: 5px;
     }
-    .search-icon>.fas{
-        text-align:right;
+    .fa-home{
         color: red;
+        padding-left: 15px;
+        padding-top: 35px;
+        position: fixed;
     }
+    .icon{
+        display: block;
+    }
+    .menu-list{
+        padding-top: 30px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    
 }
 /*Nav bar Css*/
-
-@media screen {
+.menu-list{
+    margin-left: 100px;
+    margin-top: -25px;
     
 }
 
-
+#menu-list{
+    display: inline-flex;
+}
+.menu-item{
+    text-decoration: none;
+    padding: 7px;
+    text-transform: uppercase;
+    color:red;
+    font-size: 15px;
+    font-weight: 100px;   
+    padding-bottom: 15px; 
+}
