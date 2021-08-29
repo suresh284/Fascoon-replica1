@@ -33,7 +33,7 @@ margin:0px
     display: none;
 }
 
-@media(max-width: 768px){
+@media(max-width: 1080px) {
     .catagories{
         display: inline-flex;
         width: 100%;
@@ -78,6 +78,8 @@ margin:0px
 }
 /*Nav bar Css*/
 
-
+@media screen {
+    
+}
 
 
