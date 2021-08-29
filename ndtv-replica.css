@@ -32,7 +32,10 @@
     #toggle:checked + .menu-options{
         display: block;
     }
-    
+    #menu-list{
+        text-align: center;
+        margin-top: 25px;
+    }
     .nav-bar-menu{
         margin: 0 0 0 35px;
         display: inline-flex;
